@@ -20,6 +20,9 @@ public class FirstProgram {
         c = scanner.nextDouble();
         System.out.println("Entered double value is " + c);
 
+        System.out.println("Enter char value ");
+        // d = scanner.next();
+
     }
 
 }
