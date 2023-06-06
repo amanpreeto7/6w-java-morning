@@ -17,5 +17,6 @@ class HelloWorld {
         f = scanner.nextInt(); // initialization
         int g = scanner.nextInt();
         System.out.println("Entered value is " + f);
+        // this is comment
     }
 }
