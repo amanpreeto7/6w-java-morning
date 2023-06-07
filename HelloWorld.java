@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // package
 
 class HelloWorld {
     public static void main(String args[]) {
@@ -15,7 +15,8 @@ class HelloWorld {
         System.out.println("Enter integer value ");
         int f; // declare
         f = scanner.nextInt(); // initialization
-        int g = scanner.nextInt();
+        float g = scanner.nextFloat();
+        double h = scanner.nextDouble();
         System.out.println("Entered value is " + f);
         // this is comment
     }
