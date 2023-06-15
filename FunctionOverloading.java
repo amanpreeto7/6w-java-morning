@@ -22,5 +22,7 @@ public class FunctionOverloading {
         functionOverloading.area(2);
         functionOverloading.area(12, 23);
         functionOverloading.area(2f);
+        ConstructorAssignment constructorAssignment = new ConstructorAssignment();
+        Constructors constructor = new Constructors();
     }
 }
