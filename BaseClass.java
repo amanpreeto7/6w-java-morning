@@ -6,6 +6,15 @@ public class BaseClass {
 
     // }
 
+    BaseClass() {
+        System.out.println("in Base class constructor");
+    }
+
+    BaseClass(int a) {
+        this.a = a;
+        System.out.println("in base class with parameter");
+    }
+
     public void setValue(int a) {
         this.a = a;
     }
