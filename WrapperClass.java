@@ -2,12 +2,8 @@ public class WrapperClass {
     public static void main(String args[]) {
 
         Integer a = Integer.valueOf(1); // autoboxing
-        try {
-            int datatypeInt = a.parseInt("1234"); // unboxing
+        int datatypeInt = a.intValue(); // unboxing
 
-        } catch (NumberFormatException e) {
-
-        }
         int i = 10;
         double dDatatype = 12.4;
 

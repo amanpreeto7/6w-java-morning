@@ -26,5 +26,7 @@ public class Square extends Rectangle {
         square.setParentWidth();
         square.show();
 
+        square.protectedMember = 12;
+        square.setPrivateMember(23);
     }
 }
